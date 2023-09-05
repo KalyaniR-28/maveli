@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/018c6eae5a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Maveli</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="picture/mavlogo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Favourites</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Mythological Daitya King</p>
+                <h1>Hi , I'm <span>Mahabali</span><br>from Paathalam </h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------about-------------- -->
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="picture/new.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>The grandson of great Prahlada, and a descendant of the sage Kashyapa, who was sent to pathalam by Lord Vishnu
+                        and my return is awaited every year by keralites to celebrate Onam. Noblest, most prosperous ruler and very punctual in visiting my homeland
+                        on every year. Righteous and charitable man and treated all his subjects equally. 
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Friendly and welcoming</span><br>towards visitors or guests.</li>
+                            <li><span>Excellent</span><br>Sadya taster.<br></li>
+                            <li><span>Kind and courteous and</span><br>treated everyone equally.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Ruled over the Three Worlds for</span><br>ten million three hundred sixty thousand years.</li>
+                            <li><span>Qualified and approved </span><br>by Lord Maha Vishnu as a Pookalam judge.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Devotee <br></span>of Maha Vishnu.</li>
+                            <li><span>Completed Schooling</span><br>from Daitya Dynasty.</li>
+                            <li><span>Graduate</span><br>from Pathala College of Asuras</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------services----------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-unity"></i>
+                    <h2>Unity</h2>
+                    <p>Celebrated with fervor and enthusiasm, Onam is a time when the entire state comes alive with cultural dances, elaborate feasts, and joyful festivities and paints a picture of unity, prosperity, and happiness across
+                          the entire nation.</p>
+                </div>
+                <div>
+                    <i class="fa-regular fa-hand"></i>
+                    <h2>Blessings</h2>
+                    <p>People wait and celebrate my arrival as a festival - ONAM. My blessings shower happiness and prosperity to people's home. Onam is celebrated with joy and togetherness. </p>
+                </div>
+                <div>
+                    <i class="fa-regular fa-face-smile"></i>
+                    <h2>Happiness</h2>  
+                    <p>The cause for celebrating Onam is because it is the time of the year when a good harvest has been gathered all over Kerala, resulting in plenitude and happiness.
+                    </p>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!-------------portfolio----------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Favourites</h1>
+        <div class="favourite-list">
+            <div class="favourite">
+                <img src="picture/istockphoto-1334595378-612x612.jpg">
+                <div class="layer">
+                    <h3>Sadya</h3>
+                    <p>Sadya, encompassing the length and breadth of vegetarian cuisine and this feast of Kerala is among the most favourite delicacies of all who visit the shores.</p>
+                    <a href="#"><i class="fa-solid fa-feather"></i></a>
+                </div>
+            </div>
+            <div class="favourite">
+                <img src="picture/76c870086104e3f6be55c0751561f77d.jpg">
+                <div class="layer">
+                    <h3>Pookalam</h3>
+                    <p>Pookalam, a stunning floral arrangement that brings together communities and weaves a tradition that is mesmerising and beautiful.  </p>
+                    <a href="#"><i class="fa-solid fa-seedling"></i></a>
+                </div>
+            </div>
+            <div class="favourite">
+                <img src="picture/1e1b562ec32949847dbd203015127530.jpg">
+                <div class="layer">
+                    <h3>Games</h3>
+                    <p>Games such as Onathallu, Tug of war, Sack Race, Kabaddi, Kaikottikalli, pulikali are played with great zeal and enthusiasm.</p>
+                    <a href="#"><i class="fa-solid fa-people-carry-box"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="picture/Celebrations.pdf" download class="btn">See more</a>
+    </div>
+</div>
+<!-------------contact---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>maveli@paathalam.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9876543210</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="picture/Legend of Mahabali.pdf" download class="btn btn2">Download History</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2" onclick="openPopup()">Submit</button>
+                    <div class="popup" id="popup">
+                        <img src="picture/Tick-Green-Check-Mark-PNG-Transparent-Image.png">
+                        <h2>Thank You!</h2>
+                        <p>Your details has been successfully submitted. Thanks!</p>
+                        <button type="button" onclick="closePopup()">OK</button>
+                    </div>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Made by Maveli with <i class="fa-solid fa-heart"></i> </p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script> 
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz1y-r8Czlwype2sDY6ArrW32BM0ign_jbiqeXMPWvKAIORDe4N7lL79FFGGa9kF7gG-w/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },1000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script>
+    let popup = document.getElementById("popup");
+    function openPopup(){
+        popup.classList.add("open-popup");
+    }
+    function closePopup(){
+        popup.classList.remove("open-popup");
+    }
+  </script>
+</body>
+</html>
